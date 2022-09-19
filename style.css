@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#cat-picture {
+    width: 80px;
+}
+
+.li-nav-bar {
+    list-style-type: none;
+    margin: 10px 20px 10px 20px;
+    font-family: 'Noto Sans Balinese', sans-serif;
+}
+
+.container-nav-bar {
+    background-color: #67e9ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}/* imagem + menus background */
+
+.logo {
+    display: flex;
+    align-items: initial;
+    margin: 0px 0px 0px 10px;
+}/* somente o back da imagem */
+
+.menu-nav-bar {
+    display: flex;
+}/* somente os menus nomes */
+
+.home {
+    background-color: blueviolet;
+} /* Todo o fundo do texto seja bem vindo */
+
+#my-picture {
+    width: 300px;
+}
+
+#my-picture {
+    width: 300px;
+}
