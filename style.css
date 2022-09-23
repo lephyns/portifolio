@@ -7,7 +7,7 @@
 }
 
 li {
-    list-style-type: none;
+
 }
 
 a {
@@ -21,13 +21,7 @@ a {
 }
 
 .container-nav-bar {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    background-color: black;
+    background-color: #114060;
 }
 
 .ul-nav-bar {
@@ -41,6 +35,7 @@ a {
 .li-nav-bar {
     margin: 10px 30px;
     font-size: 18px;
+    list-style-type: none;
 }
 
 .container-home {
@@ -48,9 +43,7 @@ a {
     height: 700px;
     width: 100%;
     flex-direction: row;
-    background: rgb(0,0,0);
-    background: linear-gradient(266deg, rgba(0,0,0,1) 22%, rgba(46,46,46,1) 61%);
-
+    background: linear-gradient(45deg, #0A9A86 0%, #165680 50%, #000000 100%);
 }
 
 .div-home-text {
@@ -84,15 +77,27 @@ a {
     height: 700px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .about-me {
     color: rgb(88, 88, 88);
-    height: 50%;
-    width: 50%;
-    display: flex;
     font-size: 20px;
+    display: flex;
+}
+
+.h1-about-me {
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-about-me {
+    width: 50%;
+    text-align: justify;
 }
 
 .container-certificates {
@@ -101,7 +106,6 @@ a {
     justify-content: center;
     background-color: rgb(15, 15, 15);
     color: rgb(112, 112, 112);
-    font-size: 18px;
     width: 100%;
 }
 
@@ -113,16 +117,59 @@ a {
 .h1-div-certificates {
     text-align: center;
     margin: 30px;
+    font-size: 20px;
 }
 
 .doing {
     text-align: start;
     width: 100%;
-    margin: 60px 0px;
+    padding: 30px 0px;
 }
 
 .finished {
     text-align: start;
     width: 100%;
-    padding: 60px 0px;
+    padding: 30px 0px;
+}
+
+.container-experiences {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+
+}
+
+.h1-text {
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.experience {
+    color: rgb(88, 88, 88);
+    width: 80%;
+    padding: 20px 0px;
+}
+
+footer {
+    background-color: #114060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icons {
+    max-width: 50%;
+    display: flex;
+}
+
+.icon {
+    padding: 20px 30px;
+    display: flex;
 }
