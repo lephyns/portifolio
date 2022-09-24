@@ -19,10 +19,13 @@ body {
     background-color: #12252c;
     position: fixed;
     width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 100px;
 }
 
 .ul-nav-bar {
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -33,6 +36,17 @@ body {
     margin: 10px 30px;
     font-size: 18px;
     list-style-type: none;
+}
+
+.container-icons {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    margin: 10px 30px;
 }
 
 .li-nav-bar a {
@@ -82,7 +96,7 @@ body {
 }
 
 .container-about-me {
-    background-color: black;
+    background-color: #255b72;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -91,7 +105,7 @@ body {
 }
 
 .about-me {
-    color: rgb(88, 88, 88);
+    color: white;
     font-size: 20px;
     display: flex;
 }
@@ -114,7 +128,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(15, 15, 15);
+    /* background-color: rgb(15, 15, 15); */
     color: rgb(112, 112, 112);
     width: 100vw;
 }
@@ -143,7 +157,7 @@ body {
 }
 
 .container-experiences {
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,14 +181,22 @@ body {
     padding: 20px 0px;
 }
 
-footer {
-
+ /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+@media (min-width:320px) {
+    
 }
 
-.container-icons {
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px) {}
 
-}
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px) {}
 
-.icon {
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px) {}
 
-}
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {}
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {}
