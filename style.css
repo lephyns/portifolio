@@ -181,6 +181,10 @@ body {
     padding: 20px 0px;
 }
 
+footer {
+
+}
+
  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 @media (min-width:320px) {
     
