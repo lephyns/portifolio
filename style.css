@@ -165,90 +165,8 @@ a {
     font-size: 20px;
 }
 
-
 .text-about-me {
     font-size: 15px;
-}
-
-
-/* CERTIFICATES */
-
-.container-certificates {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    background-color: #2b5262;
-    color: white;
-    align-items: center;
-    justify-content: center;
-}
-
-.div-certificates {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.container-doing-finished {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 70px;
-}
-
-.h1-div-certificates {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    margin: 0px 70px;
-}
-
-.h4-certificates {
-    font-size: 17px;
-}
-
-.doing {
-    margin: 0px 0px 25px 0px;
-}
-
-.ul-li-doing {
-    margin: 0px 0px 0px 21px;
-}
-
-.ul-li-finished {
-    margin: 0px 0px 0px 21px;
-}
-
-
-/* EXPERIENCES */
-
-.container-experiences {
-    width: 100vw;
-    padding: 50px 100px 100px 100px;
-    background-color: #11232a;
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
-
-.h1-text {
-    margin: 30px 0px 60px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 20px;
-}
-
-.experiences {
-    display: flex;
-    flex-direction: column;
-}
-
-.experience {
-    margin: 0px 0px 25px 0px;
-}
-
-.li-details-experience {
-    padding: 0px 0px 0px 21px;
 }
 
 
@@ -364,9 +282,89 @@ a {
     text-align: center;
 }
 
-
 summary:hover {
     cursor: pointer;
+}
+
+
+/* CERTIFICATES */
+
+.container-certificates {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: #2b5262;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-certificates {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-doing-finished {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 70px;
+}
+
+.h1-div-certificates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0px 70px;
+}
+
+.h4-certificates {
+    font-size: 17px;
+}
+
+.doing {
+    margin: 0px 0px 25px 0px;
+}
+
+.ul-li-doing {
+    margin: 0px 0px 0px 21px;
+}
+
+.ul-li-finished {
+    margin: 0px 0px 0px 21px;
+}
+
+
+/* EXPERIENCES */
+
+.container-experiences {
+    width: 100vw;
+    padding: 50px 100px 100px 100px;
+    background-color: #11232a;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.h1-text {
+    margin: 30px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience {
+    margin: 0px 0px 25px 0px;
+}
+
+.li-details-experience {
+    padding: 0px 0px 0px 21px;
 }
 
 /* FOOTER */
