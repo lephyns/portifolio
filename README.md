@@ -10,4 +10,4 @@ Ainda não foi implementado a responsividade neste projeto.<br>
 
 Abaixo tela do projeto:
 
-![Gif](./portifolio_pessoal/imagens/exibindo_portifolio.gif)
+![Gif](./imagens/exibindo_portifolio.gif)
