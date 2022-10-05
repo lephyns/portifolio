@@ -8,6 +8,8 @@ Nele foi utilizado as linguagens HTML5 e CSS3.<br>
 
 Ainda não foi implementado a responsividade neste projeto.<br>
 
+Link do projeto no gitpages: https://lephyns.github.io/portifolio_pessoal/#home
+
 Abaixo tela do projeto:
 
 ![Gif](./imagens/exibindo_portifolio.gif)
