@@ -1,0 +1,9 @@
+#my-picture {
+    -webkit-box-shadow: -23px 21px 15px 17px rgba(0,0,0,0.85); 
+    box-shadow: -23px 21px 15px 17px rgba(0,0,0,0.85);
+}
+
+#container-home {
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+}
+

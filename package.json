@@ -1,0 +1,22 @@
+{
+  "name": "portifolio-pessoal",
+  "version": "1.0.0",
+  "description": "Portifólio pessoal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lephyns/portifolio-pessoal.git"
+  },
+  "author": "Rafael Rabelo da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lephyns/portifolio-pessoal/issues"
+  },
+  "homepage": "https://github.com/lephyns/portifolio-pessoal#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
