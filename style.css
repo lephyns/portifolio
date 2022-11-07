@@ -1,9 +1,41 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 #my-picture {
     -webkit-box-shadow: -23px 21px 15px 17px rgba(0,0,0,0.85); 
     box-shadow: -23px 21px 15px 17px rgba(0,0,0,0.85);
+
+    width: 300px;
+    padding: 8px;
+    border-radius: 300px;
+    background-color: #12252c;
+    box-shadow: -29px 21px 20px 14px rgb(0 0 0 / 78%);
 }
 
 #container-home {
     background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    height: 100%;
 }
 
+#nav-bar {
+    background-color: #0f2027;
+}
+
+.li-navbar:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#my-name {
+    font-family: 'Artifika', serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: -11px 11px 3px rgb(0 0 0 / 57%);
+}
