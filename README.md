@@ -1,7 +1,7 @@
 # O projeto
 
 Este projeto foi criado para o curso QA Engineer - Analista de softwares da Ultima School.<br>
-Nele foi utilizado as linguagens HTML5 e CSS3.<br>
+Nele foi utilizado as linguagens HTML5 e CSS3. <br>
 
 
 ## Observações
