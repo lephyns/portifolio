@@ -19,33 +19,33 @@
     <nav class="navbar fixed-top navbar-expand-lg d-flex justify-content-center" id="nav-bar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#home">Home</a>
+                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#container-home">Home</a>
             </li>
 
             <li>
-                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#about-me">Sobre mim</a>
+                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#container-about-me">Sobre mim</a>
             </li>
 
             <li>
-                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#projects">Projetos</a>
+                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#container-projects">Projetos</a>
             </li>
 
             <li>
-                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#skills">Skills</a>
+                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#container-skills">Skills</a>
             </li>
 
             <li>
-                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#certificates">Licenças e
+                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#container-certificates">Licenças e
                     Certificados</a>
             </li>
 
             <li>
-                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#career">Experiências</a>
+                <a class="nav-link active text-white li-navbar mx-2" aria-current="page" href="#container-career">Experiências</a>
             </li>
         </ul>
     </nav>
 
-    <section name="home" id="container-home"
+    <section id="container-home"
         class="container-fluid d-flex justify-content-center align-items-center flex-column">
         <div>
             <img src="./imagens/my_picture.png" alt="" id="my-picture">
@@ -57,7 +57,7 @@
             </div>
 
             <div class="mt-0">
-                <a class="mx-2 social-media" href="https://www.linkedin.com/in/rafarabelllo/"
+                <a class="mx-2 social-media" href="https://www.linkedin.com/in/lephyns/"
                     target="_blank">LinkedIn</a>
                 <a class="mx-2 social-media" href="https://github.com/lephyns" target="_blank">GitHub</a>
                 <a class="mx-2 social-media" href="mailto:rafaelrabelodasilva@outlook.com">E-mail</a>
@@ -65,45 +65,43 @@
         </div>
     </section>
 
-    <section name="about-me" id="container-about-me" class="d-flex align-items-center">
+    <section id="container-about-me" class="d-flex align-items-center">
         <div class="d-flex justify-content-center align-items-center">
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center img-me">
                 <img src="./imagens/personal_picture_PNG.png" alt="" id="personal_picture">
             </div>
 
-            <div class="justify-content-center align-items-center" style="width: 50%;">
+            <div id="about-me" class="justify-content-center align-items-center">
                 <div>
                     <h2>Sobre mim</h2>
                 </div>
                 <div>
                     <p>
                         Olá, me chamo Rafael, tenho 26 anos e sou Analista de testes de Software | QA em uma empresa de
-                        análise de crédito.
-                        Minhas principais atividades são:
+                        análise de crédito. Minhas principais atividades são:
                     </p>
                     <ul>
                         <li>Automação de testes (Cypress, BDD, Cucumber, API, SQL);</li>
-                        <li>Participar de reuniões de planejamento de sprints de trabalho;</li>
-                        <li>Identificar e cadastrar os erros encontrados nas atividades desenvolvidas nas sprints de
-                            trabalho;</li>
+                        <li>Participar de reuniões de planejamento de sprints;</li>
+                        <li>Identificar e cadastrar os erros encontrados nas atividades desenvolvidas nas sprints;</li>
                         <li>Escrever e publicar a documentação das versões entregues para os clientes internos e
                             externos;</li>
-                        <li>Testar funcionalidades desenvolvidas no software nas sprints para garantir a qualidade do
-                            trabalho entregue;</li>
+                        <li>Testar funcionalidades desenvolvidas no software para garantir a qualidade do
+                            trabalho entregue.</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section name="projects" id="container-projects"
+    <section id="container-projects"
         class="d-flex flex-column align-items-center justify-content-center">
 
         <div>
             <h2>Alguns dos meus projetos</h2>
         </div>
 
-        <div class="d-flex flex-wrap justify-content-center">
+        <div class="d-flex flex-wrap justify-content-center all-projects">
 
             <div class="card" style="width: 13rem; margin: 10px;">
                 <img class="card-img-top" src="./imagens/tela-login-ultima.png" alt="Imagem de capa do card">
@@ -165,7 +163,7 @@
         </div>
     </section>
 
-    <section name="skills" id="container-skills" class="d-flex justify-content-center align-items-center">
+    <section id="container-skills" class="d-flex justify-content-center align-items-center">
         <div class="div-all-skills d-flex justify-content-center">
 
             <div class="soft-skills soft d-flex flex-column align-items-center">
@@ -198,7 +196,7 @@
         </div>
     </section>
 
-    <section name="certificates" id="container-certificates"
+    <section id="container-certificates"
         class="d-flex flex-column justify-content-center align-items-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <div>
@@ -217,7 +215,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="mb-5">
                     <div>
                         <h6>🎓 Finalizado:</h6>
                     </div>
@@ -245,7 +243,7 @@
         </div>
     </section>
 
-    <section name="career" id="container-career" class="d-flex justify-content-center align-items-center">
+    <section id="container-career" class="d-flex justify-content-center align-items-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
 
             <div>
@@ -280,8 +278,7 @@
 
                 <div class="mb-4">
                     <div>
-                        <h6>Analista de Importação Pleno | Foreign Product Development | Accessories and
-                            Gifts | Digs Group Import & Export Trading | 2019– 2022</h6>
+                        <h6>Analista de Importação Pleno | Foreign Product Development | Gifts | Digs Group Import & Export Trading | 2019– 2022</h6>
                     </div>
                     <details>
                         <summary>Clique aqui para saber mais informações</summary>
@@ -324,7 +321,7 @@
                                 importação e exportação (PI, CI, PL e BL e AWB);</li>
                             <li>Preparo de relatórios de controle e indicadores de importação e
                                 cronogramas dos
-                                processos.</li><br>
+                                processos.</li>
                         </ul>
                     </details>
                 </div>
