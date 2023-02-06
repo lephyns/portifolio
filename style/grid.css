@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Assistant', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(1, [col] auto);
+    gap: 20px;
+}
