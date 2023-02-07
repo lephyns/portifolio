@@ -43,14 +43,41 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
+    background-color: rgb(18, 36, 44);
+    flex-direction: column;
 }
 
 #mainPicture {
-    width: 30%;
+    width: 300px;
+    padding: 8px;
     border-radius: 50%;
+    background-color: #243840;
+    box-shadow: -5px 4px 4px rgb(0 0 0 / 78%);
 }
 
-.info {}
+.info {
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info div h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.info div a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 35px;
+}
+
+.info div a:hover {
+    text-decoration: underline;
+}
 
 .container-about-me {
     background-color: rgb(136, 145, 145);
@@ -81,38 +108,132 @@ body {
     height: 100%;
 }
 
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-/* @media screen and (max-width: 500px) {
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
-    .header-right {
-        float: none;
-    }
-} */
-
-
-
 @media (max-width: 2560px) {
-    .header a {
-        font-size: 25px;
-    }
+
 }
 
 @media (max-width: 1440px) {
-    .header a {
 
-    }
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
 
-@media (max-width: 768px) {}
+}
 
-@media (max-width: 425px) {}
+@media (max-width: 768px) {
+
+    .header {
+        display: none;
+    }
+
+    #menu {
+        z-index: 2;
+      }
+      
+      #menu-bar {
+        width: 45px;
+        height: 40px;
+        margin: 30px 0 20px 20px;
+        cursor: pointer;
+      }
+      
+      .bar {
+        height: 5px;
+        width: 100%;
+        background-color: #2b505e;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+      }
+      
+      #bar1 {
+        transform: translateY(-4px);
+      }
+      
+      #bar3 {
+        transform: translateY(4px);
+      }
+      
+      .nav {
+        transition: 0.3s ease;
+        display: none;
+      }
+      
+      .nav ul {
+        padding: 0 22px;
+      }
+      
+      .nav li {
+        list-style: none;
+        padding: 12px 0;
+      }
+      
+      .nav li a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      
+      .nav li a:hover {
+        font-weight: bold;
+      }
+      
+      .menu-bg, #menu {
+        top: 0;
+        left: 0;
+        position: absolute;
+      }
+      
+      .menu-bg {
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle, #162a31, #2b505e);
+        border-radius: 50%;
+        transition: 0.3s ease;
+      }
+      
+      .change {
+        display: block;
+      }
+      
+      .change .bar {
+        background-color: white;
+      }
+      
+      .change #bar1 {
+        transform: translateY(4px) rotateZ(-45deg);
+      }
+      
+      .change #bar2 {
+        opacity: 0;
+      }
+      
+      .change #bar3 {
+        transform: translateY(-6px) rotateZ(45deg);
+      }
+      
+      .change-bg {
+        width: 720px;
+        height: 660px;
+        transform: translate(-60%,-30%);
+      }
+}
+
+@media (max-width: 425px) {
+    #mainPicture {
+        width: 200px;
+    }
+
+    .info div h1 {
+        font-size: 30px;
+    }
+
+    .info div a {
+        margin: 0 25px;
+    }
+}
 
 @media (max-width: 375px) {}
 
