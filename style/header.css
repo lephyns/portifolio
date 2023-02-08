@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Assistant', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 body {
@@ -48,7 +48,7 @@ body {
 }
 
 #mainPicture {
-    width: 400px;
+    width: 300px;
     padding: 8px;
     border-radius: 50%;
     background-color: #243840;
@@ -79,17 +79,6 @@ body {
     text-decoration: underline;
 }
 
-.container-about-me {
-    background-color: rgb(136, 145, 145);
-    height: 100%;
-}
-
-
-.container-projects {
-    background-color: rgb(79, 85, 85);
-    height: 100%;
-}
-
 
 .container-skills {
     background-color: rgb(88, 100, 100);
@@ -106,14 +95,6 @@ body {
 .container-career {
     background-color: rgb(40, 54, 54);
     height: 100%;
-}
-
-#mainPicture {
-    width: 200px;
-}
-
-.info div h1 {
-    font-size: 30px;
 }
 
 .info div a {
@@ -164,7 +145,6 @@ body {
 
 .nav li a {
     color: white;
-    font-size: 20px;
     text-decoration: none;
 }
 
@@ -215,6 +195,85 @@ body {
     transform: translate(-60%, -30%);
 }
 
+.container-about-me {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+}
+
+#astronauta {
+    width: 500px;
+}
+
+.text-about-me div h2 {
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.text-about-me div p {
+    margin-bottom: 10px;
+}
+
+.text-about-me div ul {
+    margin-left: 20px;
+}
+
+.container-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #12242c;
+    padding: 150px 0px;
+}
+
+.title-projects {
+    margin-bottom: 40px;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.all-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card div h5 {
+    font-size: 15px;
+    margin: 10px;
+}
+
 
 /* 
   ##Device = Desktops
@@ -226,6 +285,11 @@ body {
     #menu {
         display: none;
     }
+    
+    .menu-bg {
+        display: none;
+    }
+    
 
 }
 
@@ -237,6 +301,10 @@ body {
 @media (min-width: 1025px) and (max-width: 1280px) {
 
     #menu {
+        display: none;
+    }
+
+    .menu-bg {
         display: none;
     }
 
@@ -253,6 +321,10 @@ body {
         display: none;
     }
 
+    .menu-bg {
+        display: none;
+    }
+
 }
 
 /* 
@@ -263,6 +335,10 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
     #menu {
+        display: none;
+    }
+
+    .menu-bg {
         display: none;
     }
 }
