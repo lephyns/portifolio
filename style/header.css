@@ -202,7 +202,6 @@ body {
 }
 
 .text-about-me div h2 {
-    font-size: 40px;
     margin: 20px 0px;
 }
 
@@ -388,6 +387,9 @@ h3 {
     .menu-bg {
         display: none;
     }
+    #astronauta {
+        width: 300px;
+    }
 
 }
 
@@ -426,6 +428,10 @@ h3 {
         margin: 0 15px;
     }
 
+    #astronauta {
+        display: none;
+    }
+
 }
 
 /* 
@@ -434,6 +440,10 @@ h3 {
   */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+    * {
+        font-size: 15px;
+    }
 
     .header {
         display: none;
@@ -450,6 +460,14 @@ h3 {
 
     #mainPicture {
         width: 200px;
+    }
+
+    #astronauta {
+        display: none;
+    }
+
+    h2 {
+        font-size: 20px;
     }
 
 }
